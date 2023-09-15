@@ -14,7 +14,7 @@ app.set('view engine','ejs')
 
 
 //conexion de mongodb
-const dbURL='mongodb+srv://joselcondori:lXYs1pxtMz32UkOO@cluster0.tiraw6w.mongodb.net/?retryWrites=true&w=majority'
+const dbURL=''
 mongoose.connect(dbURL,{ useNewUrlParser:true, useUnifiedTopology:true })
 .then((result)=>app.listen(4000))
 .catch((error)=>console.log(error))
